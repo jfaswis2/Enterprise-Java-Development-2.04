@@ -2,6 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Person person1 = new Person(1,"Jhon Aristizabal",25,"Student");
+        person1.toString();
     }
 }
